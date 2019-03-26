@@ -1,0 +1,29 @@
+nav.navbar, .navbar-default {
+    background: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+}
+/* white nav links */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+/* white links on hover */
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+
+}
+ /* color for navbar when solid*/
+.navbar.solid {
+    background-color: #001a8f;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+}
+
+/* Backgroun color for navbar on mobiles*/
+@media screen and (max-width: 768px) {
+    .navbar-collapse {
+        background-color: #001a8f;
+    }
+}

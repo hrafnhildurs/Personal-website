@@ -1,0 +1,224 @@
+/* sections */
+#home, #about, #projects, #education {
+    height: 600px;
+    padding-top: 60px;
+}
+ /* background image settings */
+#home {
+    background-image: url("/assets/Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ #education {
+     height: 700px;
+ }
+/* main title on page*/
+h1 {
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 10rem;
+    color: white;
+    margin-left: 10%;
+}
+
+/* background for subtitle under main title*/
+.subtitle {
+    background-color: #3D821F;
+    width: 80%;
+    height: 50px;
+}
+/* subtitle settings*/
+small {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 3rem !important;
+    padding: 20px;
+    vertical-align: 200%;
+}
+
+.section-title {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.about-me-image {
+    padding: 20px;
+    margin: auto auto;
+}
+
+.about-me-subtitle {
+    text-align: center;
+    padding: 10px;
+}
+
+.about-me-text {
+    text-align: justify;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+ /* background image settings */
+#projects {
+    background-image: url("/assets/Banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ /* section titles with background images have to be white*/
+#projects .section-title, #contact .section-title {
+    color: white;
+}
+
+#project1-image {
+    padding: 20px;
+}
+
+/* settings for text to appear on hover*/
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.project:hover .project-image {
+    opacity: 0.3;
+}
+  
+.project:hover .middle {
+    opacity: 1;
+}
+
+/* text on project image hover */
+.overlay-text {
+    background-color: #3D821F;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.store-link {
+    margin: 5px;
+}
+.school, .education-date {
+    text-align: left;
+}
+
+.education-subtitle1,
+.education-subtitle2 {
+    text-align: left;
+    text-decoration: underline;
+    padding-bottom: 5px;
+    margin-left: 210px;
+}
+
+#contact {
+    background-color: #474747;
+    height: 100px;
+    padding-top: 5px;
+
+}
+
+#contact .section-title {
+    padding-bottom: 5px;
+}
+
+#contact a {
+    display: block;
+}
+
+.contact-info {
+    text-align: left;
+    color: white;
+}
+/* mobile settings */
+@media screen and (max-width: 768px) {
+    #home {
+        height: 200px;
+        padding-top: 30px;
+    }
+
+    #about {
+        padding-top: 30px;
+    }
+    #projects {
+        height: 470px;
+        padding-top: 5px;
+    }
+    
+    #education {
+        height: 850px;
+        padding-top: 30px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .subtitle {
+        width: 70%;
+        height: 20px;
+    }
+    
+    small {
+        font-size: 1rem !important;
+        padding: 5px;
+        vertical-align: 140%;
+    }
+
+    .section-title {
+        padding-bottom: 10px;
+    }
+
+    .about-me-subtitle {
+        padding: 5px;
+    }
+    
+    .about-me-text {
+        padding: 5px;
+    }
+
+    .about-me-image {
+        padding: 5px;
+    }
+
+    #project1-image {
+        padding: 10px;
+    }
+    
+    .project {
+        margin: 10px;
+    }
+
+    .project:hover .middle {
+        opacity: 0;
+    }
+
+    .project:active .middle {
+        opacity: 1;
+    }
+
+    .school, .education-date {
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .study, .description {
+        font-size: 1.5rem;
+    }
+    
+    .education-subtitle1,
+    .education-subtitle2 {
+        margin-left: 3px;
+    }
+
+    #contact {
+        height: 120px;
+        padding-top: 2px;
+    }
+}

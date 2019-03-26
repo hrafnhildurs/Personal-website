@@ -1,0 +1,41 @@
+{
+    "home": {
+        "subtitle": ["Web and mobile developer", "Smáforrit og vefsíðugerð"]
+    },
+
+    "about": {
+        "subtitle": ["About me", "Um mig"],
+        "text": ["I have a BSc. in Computer Science from Reykjavík University. I have mainly been working on web and mobile development projects and I am, as well, interested in working on other forms of programming. I love learning new things that increase my knowledge and skills. I am dedicated, hard working and I never shy away from a challenge.",
+                "Ég er með BSc. í Tölvunarfræði frá Háskólanum í Reykjavík. Ég hef aðalega verið að vinna við vefforritun og gerð smáforrita en ég hef einnig áhuga á að vinna við annarskonar forritun. Ég elska að læra nýja hluti sem auka þekkingu mína og hæfni. Ég er samviskusöm, dugleg og þrautseig."]
+    },
+
+    "projects": {
+        "title": ["Projects", "Verkefni"],
+        "info1": ["Website for geoSilica Iceland", "Vefsíða fyrir geoSilica Iceland"],
+        "info2": ["Icelandic nouns and verbs app for iOS and Android", "Icelandic nouns and verbs smáforrit fyrir iOS og Android"]
+    },
+
+    "education": {
+        "title": ["Education", "Menntun"],
+        "subtitle1": ["University education", "Háskólamenntun"],
+        "school1": ["Reykjavík University", "Háskólinn í Reykjavík"],
+        "date1": ["Aug 2015 - Jun 2017", "Agu 2015 - jun 2017"],
+        "study1": ["BSc. Computer Science", "BSc. í Tölvunarfræði"],
+        "description1": ["Final project: the aim of the project was to enrich a shopper’s experience by providing a web application that enables customers, as well as staff, to get access to product details using their web browser of choice.",
+                            "Lokaverkefni: vefsíða sem gerir viðskipavinum kleift að skoða vöruúrval og nánari vöruupplýsingar, s.s. innihaldslýsingar, hvort varan sé til og staðsetningu í verslun."],
+        "subtitle2": ["Certificates", "Námskeið"],
+        "school2": ["NTV", "NTV"],
+        "date2": ["Nov 2018 - Dec 2018", "Nov 2018 - des 2018"],
+        "study2": ["Graphic design", "Grafísk hönnun"],
+        "description2": ["Short course where I learned the basics in Adobe Photoshop and InDesign", "Námskeið þar sem farið var yfir grunnatriði í Adobe Photoshop og InDesign"],
+        "school3": ["Michigan State University on Coursera", "Michigan State University á Coursera"],
+        "date3": ["Feb 2018", "Feb 2018"],
+        "study3": ["Introduction to Game Development", "Introduction to Game Development"],
+        "description3": ["", "Skrírteini fengið miðvikudaginn, 28 febrúar, 2018"]
+    },
+
+    "contact": {
+        "title": ["Contact me", "Hafa samband"]
+    }
+
+  }
